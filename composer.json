@@ -1,6 +1,6 @@
 {
-  "name": "check-gpt/web-php",
-  "description": "PHP Web port of check-gpt",
+  "name": "Check-Trace",
+  "description": "Check-Trace Web PHP",
   "type": "project",
   "require": {
     "php": ">=7.4"
@@ -11,5 +11,6 @@
     }
   }
 }
+
 
 
