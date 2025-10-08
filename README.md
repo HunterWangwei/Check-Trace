@@ -13,6 +13,9 @@
 - IP 归属查询：基于公开接口（ip-api.com）展示组织、城市/地区、国家码与简写 DC
 - 结果可读性：深色面板 + 白色等宽字体，超长 JSON 自动换行与滚动
 
+```
+在线演示：`https://check.898.hk/`
+
 ## 目录结构
 ```
   public/index.php               # 前端控制器（支持 ?r=/path 路由）
@@ -40,6 +43,8 @@ composer install
 # 启动 80 端口（Windows 需管理员；Linux/macOS 可用 sudo）
 php -S 0.0.0.0:80 -t public
 ```
+在线演示：`https://check.898.hk/`
+
 生产部署（Nginx/Apache）：
 - Web 根目录指向 `/public/`
 - 无需配置重写，路由使用 `?r=/path`
